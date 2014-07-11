@@ -79,7 +79,7 @@ ol.timeline {
   position: relative; }
   .tl-node a {
     display: block; }
-  .tl-node:not(.deliverable):before {
+  .tl-node:before {
     content: "";
     position: absolute;
     top: 0;
@@ -91,12 +91,17 @@ ol.timeline {
     border: 2px solid #dddddd;
   }
 
-  &.deliverable {
-    margin-top: -1.5em;
-    background-color: #E6DCC2;
-    padding-bottom: .5em;
-    margin-right: -2em;
 
+
+  &.deliverable {
+    margin-top: -1em;
+    &:before {
+      left: -11px;
+      top: 5px;
+      width: 20px;
+      height: 20px;
+      background-color: #D1473A;
+    }
   }
 
 /* Timestamp */
