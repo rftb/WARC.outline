@@ -74,12 +74,12 @@ ol.timeline {
 /* Individual Timeline Item */
 .tl-node {
   padding-left: 2em;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   padding-top: .3em;
   position: relative; }
   .tl-node a {
     display: block; }
-  .tl-node:before {
+  .tl-node:not(.deliverable):before {
     content: "";
     position: absolute;
     top: 0;
@@ -88,7 +88,16 @@ ol.timeline {
     height: 30px;
     border-radius: 50%;
     background: #fff;
-    border: 2px solid #dddddd; }
+    border: 2px solid #dddddd;
+  }
+
+  &.deliverable {
+    margin-top: -1.5em;
+    background-color: #E6DCC2;
+    padding-bottom: .5em;
+    margin-right: -2em;
+
+  }
 
 /* Timestamp */
 .tl-stamp {

@@ -16,8 +16,11 @@
         <% var tl = public._data.timeline %>
         <h1><a href="scope.html"><%= project_name %></a></h1>
         <ol class="timeline">
-          <% for (var i in tl) { %>
-            <li class="tl-node">
+          <% for (var i in tl) {
+            var node_class = 'tl-node';
+          %>
+            <% if (tl[i].stamp.substr(-11) == 'eliverables') node_class += ' deliverable'; %>
+            <li class="<%=node_class%>">
               <% if (tl[i].stamp) { %>
                 <div class="tl-stamp"><%= tl[i].stamp %></div>
               <% } %>

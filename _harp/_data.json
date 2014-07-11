@@ -1,39 +1,33 @@
 {
   "timeline": [
     {
-      "stamp": "Week 1 | Sprint 1",
+      "stamp": "Week 1 (7.14) | Sprint 1",
       "links": {
         "> Hosting & DNS : General": "hosting.html"
       , "Security Config" : "#"
       , "Backup Solution" : "#"
-      , "> Front End Templating" : "frontend.html"
-      , "Testing" : "#"
-      }
-    },
-    {
-      "stamp": "Sprint 1 Deliverables",
-      "links": {
-        "Hosting, Dev Link": "#"
+      , "> Begin Front End Templating" : "frontend.html"
       }
     }
   , {
-      "stamp": "Weeks 2 | Sprint 2",
+      "stamp": "Week 2 (7.21) | Sprint 2",
       "links": {
-        "Content Input" : "#"
-      , "Client changes" : "#"
+       "> Front End Templating (cont.)" : "frontend.html"
       , "Heavy Testing" : "#"
       }
     },
     {
       "stamp": "Sprint 2 Deliverables",
       "links": {
-        "Content Populated": "#"
+        "Dev Link": "#"
       }
     }
     , {
-      "stamp": "Week 3 | Sprint 3",
+      "stamp": "Week 3 (7.28) | Sprint 3",
       "links": {
-        "Analytics" : "#"
+        "Content Input" : "#"
+      , "Client changes" : "#"
+      , "Analytics" : "#"
       , "Speed Optimization" : "#"
       , "Testing": "#"
       }
@@ -45,7 +39,7 @@
       }
     }
     , {
-      "stamp": "Week 4 | Sprint 4",
+      "stamp": "Week 4 (8.4) | Sprint 4",
       "links": {
         "Quality Assurance Testing" : "#"
       , "Launch": "#"
