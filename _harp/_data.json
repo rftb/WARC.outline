@@ -1,22 +1,12 @@
 {
   "timeline": [
     {
-      "stamp": "Discovery",
-      "links": {
-        "> Who, What": "is.html"
-      , "> Scope" : "scope.html"
-      , "> Kickoff Notes 6.3.14" : "kickoff.html"
-      }
-    }
-  , {
-      "stamp": "Weeks 1-2 | Sprint 1",
+      "stamp": "Week 1 | Sprint 1",
       "links": {
         "> Hosting & DNS : General": "hosting.html"
       , "Security Config" : "#"
-      , "> Backup Solution" : "backup.html"
+      , "Backup Solution" : "#"
       , "> Front End Templating" : "frontend.html"
-      , "> Custom Post Types" : "cpt.html"
-      , "Social Media Integration" : "#"
       , "Testing" : "#"
       }
     },
@@ -27,33 +17,42 @@
       }
     }
   , {
-      "stamp": "Weeks 2-4 | Sprint 2",
+      "stamp": "Weeks 2 | Sprint 2",
       "links": {
-        "> JavaScript Animation": "animation.html"
-      , "Admin Customization" : "#"
-      , "Connect Front & Back End" : "#"
-      , "Content Input" : "#"
-      , "Marketo Integration" : "#"
+        "Content Input" : "#"
+      , "Client changes" : "#"
       , "Heavy Testing" : "#"
       }
     },
     {
       "stamp": "Sprint 2 Deliverables",
       "links": {
-        "Animation, live ready site": "#"
+        "Content Populated": "#"
       }
     }
     , {
-      "stamp": "Week 5 | Sprint 3",
+      "stamp": "Week 3 | Sprint 3",
       "links": {
         "Analytics" : "#"
       , "Speed Optimization" : "#"
       , "Testing": "#"
-      , "Launch": "#"
       }
     },
     {
       "stamp": "Sprint 3 Deliverables",
+      "links": {
+        "Live ready site": "#"
+      }
+    }
+    , {
+      "stamp": "Week 4 | Sprint 4",
+      "links": {
+        "Quality Assurance Testing" : "#"
+      , "Launch": "#"
+      }
+    },
+    {
+      "stamp": "Sprint 4 Deliverables",
       "links": {
         "Live site": "#"
       }
